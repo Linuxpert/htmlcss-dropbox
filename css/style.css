@@ -3,3 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+#logo {
+    padding: 10px 30px;
+    float: left;
+    /* debug */
+    background-color: red;
+    height: 50px;
+    width: 40%;
+}
+#logo img{
+    float: left;
+}
+
+#navigazione-logo {
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+#navigazione-logo ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+#navigazione-logo li{
+    display: inline-block
+}
+#navigazione-logo li a {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#accedi {
+    padding: 10px 30px;
+    float: right;
+    /* debug */
+    background-color: red;
+    height: 50px;
+    width: 40%;
+}
+#accedi #btn-acc{
+    
+    padding: 5px 10px;
+    text-decoration: none;
+    float: right;
+    background-color: blue;
+    color: white;
+}
+
+#navigazione-accedi {
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+#navigazione-accedi ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+#navigazione-accedi li{
+    display: inline-block;
+}
+#navigazione-accedi li a {
+    margin: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-decoration: none;
+}
