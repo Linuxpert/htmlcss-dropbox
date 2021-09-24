@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -107,7 +107,7 @@
 .text-left {
     float: left;
     margin: 50px 0;
-    width: 30%;
+    width: 40%;
     
 }
 .text-left a{
@@ -124,9 +124,58 @@
 }
 .text-right img {
     float: right;
-    width: 40%;
-    position: absolute;
-    margin: 50px;
+    width: 60%;
 
 }
 
+/* main */
+
+/* sezione piano dropbox business */
+#titolo-piano{
+    margin: 0 auto;
+    width: 60%; 
+}
+#titolo-piano h1{
+    font-size: 50px;
+    margin-top: 200px;
+}
+
+#checkbox{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* abbonamenti */
+
+.abbonamenti {
+    margin: 0 auto;
+    width: 60%;
+}
+.contenitore-abb {
+    border: lightgray solid 1px;
+    float: left;
+    width: 25%;
+}
+.type h2{
+    text-align: center;
+    border-bottom:lightgray solid 1px ;
+}
+
+.centratura-text {
+    padding: 20px;
+    
+}
+
+.titolo-box h1{
+    margin-bottom: 10px;
+}
+.titolo-box h2{
+    margin-bottom: 10px;
+}
+.titolo-box h3{
+    margin-bottom: 30px;
+}
+
+.centro-box h4{
+    margin-bottom: 15px;
+}
