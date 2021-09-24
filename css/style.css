@@ -4,16 +4,25 @@
     box-sizing: border-box;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+/* header */
+.contenitore {
+    width: 100%;
+    border-bottom: solid 1px lightgray;
 
+}
 
 #logo {
-    padding: 10px 30px;
+    margin: 20px 10px;
+    padding: 10px 10px;
     float: left;
-    /* debug */
-    background-color: red;
-    height: 50px;
-    width: 40%;
+    
+    
 }
 #logo img{
     float: left;
@@ -42,12 +51,10 @@
 }
 
 #accedi {
-    padding: 10px 30px;
+    margin: 20px 10px;
+    padding: 10px 10px;
     float: right;
-    /* debug */
-    background-color: red;
-    height: 50px;
-    width: 40%;
+    
 }
 #accedi #btn-acc{
     
@@ -79,3 +86,47 @@
     font-size: 16px;
     text-decoration: none;
 }
+
+/* jumbo */
+#jumbo { 
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    height: 600px;
+}
+
+#testo {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#testo h1{
+    font-size: 100px;
+}
+
+.text-left {
+    float: left;
+    margin: 50px 0;
+    width: 30%;
+    
+}
+.text-left a{
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+}
+.text-left .btn-prova {
+    margin: 50px 0 25px;
+}
+.fa-arrow-down{
+    font-size: 25px;
+}
+.text-right img {
+    float: right;
+    width: 40%;
+    position: absolute;
+    margin: 50px;
+
+}
+
