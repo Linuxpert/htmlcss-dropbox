@@ -228,3 +228,40 @@
     padding: 10px;
     float: right;
 }
+
+/* partner */
+
+.partner {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.partner-box{
+    margin-top: 150px;
+}
+#img img{
+    object-fit: cover;
+    width: 55%;
+    float: left;
+}
+
+#text-p{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    
+}
+#text-p h2{
+    margin: 30px 0;
+}
+#text-p p{
+    margin-bottom: 25px;
+}
+
+#text-p a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+}
