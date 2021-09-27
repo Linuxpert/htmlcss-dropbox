@@ -265,3 +265,63 @@
     border: solid black 1px;
     padding: 10px;
 }
+
+/* operazioni  */
+
+.operazioni {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#titolo-op {
+    margin: 100px 0 40px;
+    font-size: 50px;
+}
+
+.sx {
+    float: left;
+    width: 30%;
+      
+}
+.sx img{
+    object-fit: cover;  
+    width: 100%;
+}
+.sx h2{
+    margin: 10px 0;
+}
+.sx p{
+    margin-bottom: 100px;
+}
+
+.c {
+    float: left;
+    margin-left: 3.33%;
+    width: 30%;   
+}
+.c img{
+    object-fit: cover;  
+    width: 100%;
+}
+.c h2{
+    margin: 10px 0;
+}
+.c p{
+    margin-bottom: 100px;
+}
+
+.dx {
+    float: left;
+    margin-left: 3.33%;
+    width: 30%; 
+}
+.dx img{
+    object-fit: cover;  
+    width: 100%;
+}
+.dx h2{
+    margin: 10px 0;
+}
+.dx p{
+    margin-bottom: 100px;
+}
