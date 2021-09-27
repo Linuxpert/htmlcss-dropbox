@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,10 @@
     content: "";
     display: table;
     clear: both;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
 }
 
 /* header */
@@ -324,4 +330,163 @@
 }
 .dx p{
     margin-bottom: 100px;
+}
+
+/* team */
+#titolo-team {
+    margin: 0 auto;
+    width: 60%;
+}
+#titolo-team h1 {
+    font-size: 50px;
+}
+
+#titolo-team div {
+    margin: 30px 0;
+}
+/* box left */
+#box-left {
+    float: left;
+    width: 30%;
+}
+
+#team1 {
+    float: left;
+    width: 50%;
+    background-color: rgb(168, 245, 194);
+    height: 200px;
+}
+#team1 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+#team2 {
+    float: left;
+    width: 50%;
+    background-color: rgb(121, 15, 32);
+    height: 200px;
+}
+#team2 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+#team-centro {
+    float: left;
+    width: 40%;
+    background-color: rgb(214, 230, 233);
+    height: 400px;
+    padding: 50px;
+}
+#team-centro img{
+    width: 30%;
+    margin-bottom: 10px;
+    border-bottom: solid grey 1px;
+}
+#team-centro p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#team3 {
+    float: left;
+    width: 50%;
+    background-color: rgb(6, 172, 238);
+    height: 200px;
+}
+#team3 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+#team4 {
+    float: left;
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+}#team4 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+/* box right */
+#box-right {
+    float: right;
+    width: 30%;
+}
+#team5 {
+    float: right;
+    width: 50%;
+    background-color: rgb(233, 29, 29);
+    height: 200px;
+}
+#team5 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+#team6 {
+    float: right;
+    width: 50%;
+    background-color: rgb(153, 231, 245);
+    height: 200px;
+}
+#team6 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+#team7 {
+    float: right;
+    width: 50%;
+    background-color: rgb(5, 31, 149);
+    height: 200px;
+}
+#team7 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+#team8 {
+    float: right;
+    width: 50%;
+    background-color: rgb(238, 255, 0);
+    height: 200px;
+}
+#team8 img {
+    width: 50%;
+    margin: 70px;
+    filter: invert(1);
+}
+
+/* banner */
+
+.banner-basso{
+    background-color: rgb(133, 189, 248); 
+}
+
+#banner {
+    margin: 0 auto;
+    width: 60%;
+    padding: 70px 0;
+}
+#banner h1 {
+    font-size: 50px;
+    width: 60%;
+}
+
+.btn a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    border: none;
+    background-color: white;
+    padding: 10px 90px;
 }
