@@ -107,16 +107,16 @@ body{
 }
 
 #testo h1{
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .text-left {
     float: left;
     margin: 50px 0;
-    width: 40%;
+    width: 30%;
     
 }
-.text-left a{
+.btn-prova a{
     color: white;
     text-decoration: none;
     background-color: blue;
@@ -126,7 +126,12 @@ body{
     margin: 50px 0 25px;
 }
 .fa-arrow-down{
-    font-size: 25px;
+    font-size: 45px;
+    margin: 30px 0 10px;
+}
+#freccia{
+    text-decoration: none;
+    color: black;
 }
 .text-right img {
     float: right;
@@ -147,8 +152,7 @@ body{
 }
 
 #checkbox{
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 50px 0 30px 0;
 }
 
 /* abbonamenti */
@@ -193,10 +197,10 @@ body{
     color: white;
     text-decoration: none;
     background-color: blue;
-    padding: 10px;
-    width: 100%;
+    padding: 10px 55px;
 }
 .btn-prova-box {
+    
     margin: 50px 0 25px;
 }
 
@@ -522,3 +526,48 @@ body{
     float: right;
     padding-right: 30px;
 }
+
+/* footer */
+/* up */
+footer {
+    background-color: black;
+    margin-top: 150px;
+    height: 400px;
+}
+
+.footer-box {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.flink {
+    width: 15%;
+    float: left;
+    margin: 70px 0 4% 50px;
+    
+}
+.flink h3{
+    color: white;
+}
+
+.lista-footer li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.list {
+    color: white;
+    text-decoration: none;
+}
+
+/* down */
+.down {
+    margin: 0 auto;
+    width: 75%;
+    
+}
+.lingua span {
+    padding: 30px 0;
+    border-top: solid white 1px;
+    color: white;
+}
+
