@@ -160,12 +160,13 @@ body{
 .contenitore-abb {
     border: lightgray solid 1px;
     float: left;
-    width: 25%;
+    width: 30%;
     
 }
 .type h2{
     text-align: center;
     border-bottom:lightgray solid 1px ;
+    padding: 10px;
 }
 
 .centratura-text {
@@ -183,8 +184,9 @@ body{
     margin-bottom: 30px;
 }
 
-.centro-box h4{
-    margin-bottom: 15px;
+.centro-box li{
+    list-style-type: none;
+    margin-bottom: 25px;
 }
 
 .btn-prova-box a{
@@ -203,17 +205,22 @@ body{
     margin: 35px 0;
 }
 .centro{
-    margin-left: 12.5%;
+    margin-left: 5%;
 }
 
 .fine-box {
     margin-top: 50px;
 }
-.fine-box ul{
+.fine-box li{
     list-style-type: none;
+    margin-bottom: 20px;
 }
+.fa-check{
+    color: blue;
+}
+
 .destra {
-    margin-left: 12.5%;
+    margin-left: 5%;
 }
 
 .sotto {
@@ -383,7 +390,7 @@ body{
 }
 #team-centro img{
     width: 30%;
-    margin-bottom: 10px;
+    padding-bottom: 50px;
     border-bottom: solid grey 1px;
 }
 #team-centro p {
@@ -480,6 +487,7 @@ body{
 #banner h1 {
     font-size: 50px;
     width: 60%;
+    color: rgb(105, 8, 21);
 }
 
 .btn a {
@@ -489,4 +497,28 @@ body{
     border: none;
     background-color: white;
     padding: 10px 90px;
+}
+
+/* domande frequenti */
+#box-domande {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#box-domande h1 {
+    padding-bottom: 60px;
+    margin: 100px 0 50px;
+    font-size: 40px;
+    border-bottom: 1px solid grey;
+}
+#box-domande h3 {
+    padding-bottom: 30px;
+    margin: 40px 0;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.fa-chevron-down {
+    float: right;
+    padding-right: 30px;
 }
